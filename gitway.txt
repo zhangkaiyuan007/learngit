@@ -1,0 +1,13 @@
+vi file.txt  //创建或修改文件
+git add file.txt  //将文件添加到Git 提交修改
+git commit -m "word to discribe the change make difference with other version"  //将文件提交到Git仓库 提交文件
+
+git status  //查看仓库当前状态
+git diff  //查看修改内容difference
+
+git log --pretty=oneline  //查看修改历史记录但看不到date
+git log  //同上但能看到date
+HEAD  //当前版本
+HEAD^  //上个版本
+git reset --hard HEAD xxxx  //回退到某个版本
+git reflog  //查看每一次命令包括xxxx
